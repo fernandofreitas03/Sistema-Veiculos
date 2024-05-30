@@ -53,12 +53,12 @@ $result = $conexao->query($sql);
         }
 
         .a-form {
-            color: rgba(0, 0, 0, 0.6);
+            color: white;
             text-decoration: none;
             font-size: 22px;
-            background-color: red;
+            background-color: rgb(10, 80, 160);
             border: none;
-            border-radius: 3px;
+            border-radius: 5px;
             padding: 20px;
         }
     </style>
@@ -83,7 +83,7 @@ $result = $conexao->query($sql);
     echo "<h1>Bem vindo <u>$logado</u></h1>";
     ?>
     <br>
-    <a class="a-form" href="cadastroVeiculo.php"><strong>Cadastre seu veiculo</strong></a>
+    <a class="a-form" href="cadastroVeiculo.php"><strong>Cadastre seu veículo</strong></a>
 
     <div class="m-5">
         <table class="table text-white table-bg">

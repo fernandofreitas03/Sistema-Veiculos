@@ -111,7 +111,7 @@ if (!empty($_GET['id'])) {
     <div class="box">
         <form action="saveEdit.php" method="POST">
             <fieldset>
-                <legend><b>Cadastre seu veiculo</b></legend>
+                <legend><b>Edite o Veículo</b></legend>
                 <br>
                 <div class="inputBox">
                     <input value="<?php echo $marca ?>" minlength="8" type="text" name="marca" id="marca" class="inputUser" required>
